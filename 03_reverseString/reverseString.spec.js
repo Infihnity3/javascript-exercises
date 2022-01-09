@@ -1,11 +1,11 @@
 const reverseString = require('./reverseString')
 
 describe('reverseString', () => {
-  test('reverses single word', () => {
+  test.skip('reverses single word', () => {
     expect(reverseString('hello')).toEqual('olleh');
   });
 
-  test.skip('reverses multiple words', () => {
+  test('reverses multiple words', () => {
     expect(reverseString('hello there')).toEqual('ereht olleh')
   })
 
